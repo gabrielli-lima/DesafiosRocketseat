@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+
+    <!-- para aplicar a todos os labels uma intensidade mais forte, exceto a um dos labels usando o seu id -->
+    <style>
+        label:not(#novidadesTxt){
+            font-weight: 800;
+        }
+         
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Entre em contato</legend>
+
+            <label for="assuntos">Assunto:</label>
+            <select id="assuntos" name="assunto">
+                <option value="suporte">Suporte</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+            </select>
+            <br><br>
+            <label for="nome">Nome Completo:</label>
+            <br>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            <br><br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="email@seudominio.com">
+            <br><br>
+            <label for="mensagem">Mensagem:</label>
+            <br>
+            <textarea cols="25" rows="7" name="mensagem" id="mensagem" aria-label="Digite sua mensagem"></textarea>
+            <br><br>
+            <input type="checkbox" name="novidades" id="novidades">
+            <label for="novidades" id="novidadesTxt">Aceito receber novidades por e-mail</label>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

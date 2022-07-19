@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.divCentro {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+img {
+    width: 400px;
+    margin-bottom: 1rem;
+    display:flex;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+article p{
+    margin: 1em 0;
+    text-align: justify;
+}
