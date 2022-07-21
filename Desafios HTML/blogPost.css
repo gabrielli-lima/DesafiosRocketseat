@@ -23,15 +23,15 @@ header a {
 img {
     width: 400px;
     margin-bottom: 1rem;
-    display:flex;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    align-items: center;
-    position: relative;
 }
 
 article p{
     margin: 1em 0;
     text-align: justify;
+}
+
+aside img{
+    background-color: #9B75B0;
+    width: 100px;
+    left: 10px;
 }
