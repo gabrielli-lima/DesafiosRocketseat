@@ -1,0 +1,153 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('spartan-cufonfonts/Spartan-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('spartan-cufonfonts/Spartan-Regular.ttf');
+    font-weight: 400;
+}
+
+body {
+    background-color: #121214;
+    margin: 0;
+}
+
+.divPrincipal {
+    width: 720px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: block;
+    position: absolute;
+    margin-left: 30px;
+    padding-top: 50px;
+    color: #E1E1E6;
+    z-index: 1;
+    background-color: #121214;
+    text-align: left;
+}
+
+.divPrincipal img {
+    width: 390px;
+}
+
+h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #04D361;
+}
+
+h4 {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+p {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+
+.emailInput {
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+.retanguloVerde {
+    background-color: #04D361;
+    width: 5px;
+}
+
+input[type=email] {
+    width: 800px;
+    height: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 10px;
+    border: 0;
+}
+
+button {
+    background-image: url('./send.svg');
+    width: 50px;
+    background-repeat: no-repeat;
+    background-color: #8257e5;
+    background-position: 45%;
+    position: relative;
+    border: 0;
+}
+
+.emailInput img {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+}
+
+/* VER DEPOIS */
+.linkLer {
+    margin-top: 100px;
+}
+
+a {
+    font-family: 'Spartan';
+    font-size: 14px;
+    font-weight: 700;
+    color: #8257e5;
+    text-decoration: none;
+}
+
+.linkLer img {
+    width: 24px;
+    height: 24px;
+}
+
+.imgLateral {
+    position: absolute;
+    left: 270px;
+    top: 0px;
+}
+
+.imgLateral img {
+    width: 1175px;
+    height: auto;
+}
