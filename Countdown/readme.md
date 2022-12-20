@@ -5,7 +5,6 @@ Neste desafio foi criado uma página de coming soon (em breve) para o lançament
 
 ![preview](./.github/preview.png)
 
-
 ## 🛠️ Tecnologias
 
 - HTML
